@@ -1,0 +1,2 @@
+scp -i linuxkey dorsa@192.168.158.36:~/finaleval/<filename> ./
+ipconfig /flushdns
