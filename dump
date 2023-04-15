@@ -109,7 +109,6 @@ echo "Allow forwarding all SSH traffic on port 22 from any source to any destina
 iptables -A FORWARD -p tcp -s 10.61.45.0/24 -d 172.17.157.32/27 --dport 22 -j ACCEPT
 # iptables -A FORWARD -p tcp -s 172.17.157.32/27 -d 10.61.45.0/24 --sport 22 -j ACCEPT
 
-
 # Allow forwarding RDP traffic on port 3389 from from Windows Client to Server SN1
 echo "-------------------------------------------"
 echo "RDP"

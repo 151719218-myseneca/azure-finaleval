@@ -1,2 +1,6 @@
-scp -i linuxkey dorsa@192.168.158.36:~/finaleval/<filename> ./
+scp -i linuxkey 192.168.158.37:~/finaleval/part1a-ktrillana.pacp ./ktrillana.pcap
 ipconfig /flushdns
+
+semanage port -a -t ssh_port_t -p tcp 22158
+
+
